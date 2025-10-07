@@ -1,0 +1,13 @@
+﻿<!-- Dashboard.xaml -->
+<Window x:Class="Sensors.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dashboard" Height="200" Width="360">
+    <StackPanel Margin="16" >
+        <TextBlock Text="Latest reading:" FontWeight="Bold" Margin="0,0,0,8"/>
+        <TextBlock x:Name="SensorText" Text="Sensor: -" />
+        <TextBlock x:Name="ValueText"  Text="Value: -"  />
+        <TextBlock x:Name="TimeText"   Text="Time:  -"  />
+        <TextBlock x:Name="ErrorText"  Foreground="Red" Margin="0,8,0,0"/>
+    </StackPanel>
+</Window>
